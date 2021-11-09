@@ -17,6 +17,6 @@
 //   { timestamps: true }
 // );
 
-// const A = mongoose.model('A', aSchema);
+// const aModel = mongoose.model('A', aSchema);
 
 // module.exports = aModel;
