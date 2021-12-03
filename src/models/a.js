@@ -14,7 +14,11 @@
 //       },
 //     },
 //   },
-//   { timestamps: true }
+//   {
+//     timestamps: { createdAt: true, updatedAt: false },
+//     toJSON: { virtuals: true },
+//     toObject: { virtuals: true },
+//   }
 // );
 
 // const aModel = mongoose.model('A', aSchema);
